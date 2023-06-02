@@ -1,0 +1,18 @@
+{
+  "name": "express_tuts",
+  "version": "1.0.0",
+  "description": "A project for practicing express JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "Abdullah khan",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chalk": "^5.2.0",
+    "express": "^4.18.2"
+  }
+}
