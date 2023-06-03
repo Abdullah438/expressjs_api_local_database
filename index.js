@@ -411,7 +411,8 @@ app.put("/users/:id", urlEncodedParser, (req, res) => {
         const userIndex = users.indexOf(user);
         const keys = Object.keys(req.body);
         keys.forEach((key) => {
-          if (key !== "id") user[key] = req.body[key];
+          if(key !== "id")
+          user[key] = req.body[key];
         });
         users[userIndex] = user;
         writeFile(
